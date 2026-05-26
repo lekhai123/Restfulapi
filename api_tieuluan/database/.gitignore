@@ -1,1 +1,37 @@
-*.sqlite*
+# --- Laravel Standard ---
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/cache/*.php
+/.phpunit.result.cache
+/phpunit.xml
+/.env
+/.env.backup
+/.env.production
+
+# --- OS generated files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- IDE files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- File nén và Backup (Cái này quan trọng cho file 1GB của bạn) ---
+*.sql
+*.zip
+*.tar
+*.rar
+*.7z
+*.log
+*.bak
